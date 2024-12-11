@@ -7,7 +7,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  min-width: 1200px;
+  max-width: 1240px;
 }
 
 ul {
@@ -16,4 +16,280 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.join__section {
+  background-color: #2B2B2B;
+}
+.join__section .join__section__inner {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(80, 79, 79, 0.4901960784);
+  padding: 40px;
+  border-radius: 15px;
+  color: #ffffff;
+  max-width: 750px;
+  margin: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.join__section .join__section__inner .image-container {
+  flex: 1;
+}
+.join__section .join__section__inner .image-container img {
+  width: 250px;
+  border-radius: 15px;
+}
+.join__section .join__section__inner .content {
+  flex: 2;
+  margin-left: 20px;
+}
+.join__section .join__section__inner .content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.join__section .join__section__inner .content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.join__section .join__section__inner .content .form {
+  display: flex;
+}
+.join__section .join__section__inner .content .form input[type=email] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 1rem;
+}
+.join__section .join__section__inner .content .form input[type=email]:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(232, 58, 255, 0.5);
+}
+.join__section .join__section__inner .content .form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  background-color: #6c5ce7;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.join__section .join__section__inner .content .form button .sumbit {
+  background-color: #A259FF;
+}
+.join__section .join__section__inner .content .form button:hover {
+  background-color: #4430e0;
+}
+
+@media (max-width: 768px) {
+  .join__section__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container {
+    margin-bottom: 20px;
+  }
+  .form {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .form input {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__section {
+    margin-bottom: 20px;
+  }
+  .footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__form input {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .join__section__inner {
+    padding: 10px;
+  }
+  .form button {
+    width: 100%;
+  }
+  .footer__section {
+    margin-bottom: 15px;
+  }
+  .footer__form button {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column; /* Knopkani pastga joylash */
+    gap: 10px;
+  }
+  .form button {
+    width: 100%; /* Kichik ekranda to'liq kenglikni egallash */
+  }
+}
+@media (max-width: 480px) {
+  .form button {
+    padding: 12px; /* Kichik ekran uchun kattaroq uslub */
+    font-size: 16px; /* Matn o'lchami kattalashtirildi */
+  }
+}
+.footer {
+  background-color: #2B2B2B;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__section {
+  flex: 1;
+  margin: 1rem;
+}
+.footer__section:nth-child(3) {
+  max-width: 300px;
+}
+.footer__title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.footer__description {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+.footer__community {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+.footer__socials {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer__socials .footer__icon {
+  width: Hug 158px px;
+  height: Hug 32px px;
+  gap: 10px;
+  opacity: 0px;
+}
+.footer__links {
+  list-style: none;
+  padding: 0;
+}
+.footer__links li {
+  margin-bottom: 0.5rem;
+}
+.footer__links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer__links li a:hover {
+  text-decoration: underline;
+}
+.footer__form {
+  display: flex;
+  gap: 0.5rem;
+}
+.footer__form .footer__input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+.footer__form .footer__button {
+  padding: 0.5rem 1rem;
+  background-color: #6c5ce7;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.footer__form .footer__button:hover {
+  background-color: #4c40d6;
+}
+.footer__copyright {
+  text-align: center;
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .join__section__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container {
+    margin-bottom: 20px;
+  }
+  .form {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .form input {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__section {
+    margin-bottom: 20px;
+  }
+  .footer__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer__form input {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .join__section__inner {
+    padding: 10px;
+  }
+  .form button {
+    width: 100%;
+  }
+  .footer__section {
+    margin-bottom: 15px;
+  }
+  .footer__form button {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column; /* Knopkani pastga joylash */
+    gap: 10px;
+  }
+  .form button {
+    width: 100%; /* Kichik ekranda to'liq kenglikni egallash */
+  }
+}
+@media (max-width: 480px) {
+  .form button {
+    padding: 12px; /* Kichik ekran uchun kattaroq uslub */
+    font-size: 16px; /* Matn o'lchami kattalashtirildi */
+  }
 }/*# sourceMappingURL=style.css.map */
