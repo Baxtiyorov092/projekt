@@ -1,0 +1,239 @@
+.discover__section{
+    background-color:#2B2B2B;
+}
+
+.discover-see-all-btn{
+    width: 187px;
+    height: 60px;
+    background-color: transparent;
+    border-color: #A259FF;
+    color: white;
+    border-radius: 20px;
+}
+
+.discover-briinchi-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-text{
+    font-size: 38px;
+    color: white;
+}
+
+.discover-explore-text{
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+
+.discover__inner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.discover-li{
+    width: 420px;
+    height: 469px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+
+.discover-ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.galaxy-kottasi{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.galaxy-text{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.highbest-text{
+    font-size: 12px;
+    color: #858584;
+}
+
+.weth-033{
+    color: white;
+}
+
+.galaxy-chap-tomon{
+    margin-top: 50px;
+}
+
+
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< how it section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+
+
+
+
+
+.how-works__section{
+    background-color: #2B2B2B;
+    padding-bottom: 80px;
+}
+
+.how-works__inner{
+    padding-top: 80px;
+}
+
+.how-it-h1{
+    color: white;
+    font-size: 38px;
+}
+
+.find-text{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.how-it-li{
+    width: 350px;
+    height: 459px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.how-it-ul{
+    display: flex;
+    gap: 50px;
+}
+
+.how-it-ul-img{
+    margin-top: 10px;
+}
+
+.setup-your-wallet-how-it{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.set-up-wallet-p{
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.how-it-ul{
+    margin-top: 48px;
+}
+
+
+
+@media only screen and (max-width:848px){
+    .qoshimcha-classs{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .qoshimcha-classs{
+        display: none;
+    }
+    
+    .discover-li{
+        width: 330px;
+        height: 469px;
+    }
+    
+    .kosmos-img{
+        width: 330px;
+        height: 295px;
+        margin-top: -30px;
+    }
+
+    .galaxy-kottasi{
+        gap: 5px;
+    }
+
+    .how-it-li{
+        width: 210px;
+        height: 337px;
+    }
+
+    .how-it-ul-img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .setup-your-wallet-how-it{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .set-up-wallet-p{
+        font-size: 12px;
+    }
+    
+    
+    }
+
+
+@media only screen and (max-width:480px){
+    .discover-ul{
+        display:block   ;
+    }
+
+    .how-it-ul{
+        display: block;
+    }
+
+    .discover-see-all-btn{
+        display: none;
+    }
+
+    .discover-briinchi-div{
+        margin-left: 30px;
+    }
+    
+    .discover-ul{
+        margin-left: 30px;
+    }
+
+    .discover-li{
+        margin-top: 20px;
+    }
+
+    .how-works__inner{
+        margin-left: 50px;
+    }
+    
+    .how-it-li{
+        width: 365px;
+        height: 157px;
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .how-it-ul-img{
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 28px;
+    }
+
+    .setup-your-wallet-how-it{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .set-up-wallet-p{
+        font-size: 12px;
+    }
+}
