@@ -7,7 +7,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  min-width: 1200px;
+  max-width: 1200px;
 }
 
 ul {
@@ -16,4 +16,183 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.treding-section {
+  background-color: #2B2B2B;
+  padding-top: 80px;
+}
+
+.trending {
+  color: white;
+  size: 38px;
+}
+
+.checkout {
+  color: white;
+  margin-top: 10px;
+}
+
+.divni_rasm {
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 330px;
+  height: 525px;
+}
+
+.ikromjonov_section_ul_1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.tulki {
+  display: flex;
+}
+
+.animals {
+  color: white;
+  size: 22px;
+}
+
+.fox {
+  color: white;
+}
+
+.tulki_rasmi {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.treding__inner {
+  margin-left: px;
+}
+
+@media only screen and (max-width: 768px) {
+  .info_3 {
+    display: none;
+  }
+  .treding__inner {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .info_2 {
+    display: none;
+  }
+  .treding__inner {
+    margin-left: 150x;
+  }
+}
+.top__section {
+  background: #2B2B2B;
+}
+
+.text_1 {
+  color: white;
+  font-size: 38px;
+}
+
+.text_2 {
+  color: white;
+  font-size: 22px;
+}
+
+.btn_1 {
+  width: 247px;
+  height: 60px;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+  background-color: #2B2B2B;
+  color: white;
+}
+
+.btn_2 {
+  width: 247px;
+  height: 60px;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+  background-color: #2B2B2B;
+  color: white;
+  margin-top: 59px;
+}
+
+.btn_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spam {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 50%;
+  color: #858584;
+  background-color: #2B2B2B;
+}
+
+.info_text {
+  width: 240px;
+  height: 238px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+
+.uls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.spam_1 {
+  margin-left: 30px;
+  padding-top: 22px;
+}
+
+.raqam {
+  text-align: center;
+}
+
+.h3_text {
+  color: white;
+}
+
+.p_text {
+  color: white;
+}
+
+.p_text2 {
+  color: white;
+}
+
+.span_text {
+  margin-left: 10px;
+}
+
+.btn_2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .top__inner {
+    margin-left: 72px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .top__inner {
+    margin-left: 72px;
+  }
+  .btn_1 {
+    display: none;
+  }
+  .btn_2 {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
